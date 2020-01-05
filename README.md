@@ -1,4 +1,4 @@
-This project is a example for unit test to react project.
+This project is an example for unit test to react project use jest and enzyme.
 
 ## Available Scripts
 
