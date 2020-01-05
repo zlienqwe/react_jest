@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Hello from './components/Hello/component'
+
 function App() {
+
+  const [name, setName] = useState('zhujiang')
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +24,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Hello name={name}></Hello>
     </div>
   );
 }
